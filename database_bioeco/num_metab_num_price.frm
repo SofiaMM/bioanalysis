@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select `price_count`.`num_price` AS `num_price`,count(`price_count`.`metabolite_id`) AS `num_metab` from ((select `bioeco`.`bioanalysis_metabolite_price`.`metabolite_id` AS `metabolite_id`,count(distinct `bioeco`.`bioanalysis_metabolite_price`.`price`,`bioeco`.`bioanalysis_metabolite_price`.`amount`,`bioeco`.`bioanalysis_metabolite_price`.`date`,`bioeco`.`bioanalysis_metabolite_price`.`source`,`bioeco`.`bioanalysis_metabolite_price`.`unity`,`bioeco`.`bioanalysis_metabolite_price`.`provider_id`) AS `num_price` from `bioeco`.`bioanalysis_metabolite_price` group by `bioeco`.`bioanalysis_metabolite_price`.`metabolite_id` order by `num_price` desc)) `price_count` group by `price_count`.`num_price`
+md5=24ee7f49a9bb89d30e11c332aae05b50
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=1
+with_check_option=0
+timestamp=2019-06-04 10:31:29
+create-version=1
+source=select price_count.num_price, count(price_count.metabolite_id) as num_metab\n	from ((select metabolite_id, count(distinct bioanalysis_metabolite_price.price, bioanalysis_metabolite_price.amount, bioanalysis_metabolite_price.date, bioanalysis_metabolite_price.source, bioanalysis_metabolite_price.unity, bioanalysis_metabolite_price.provider_id) as num_price\n	from bioanalysis_metabolite_price\n	group by metabolite_id \n	order by num_price DESC) as price_count)\n	group by price_count.num_price
+client_cs_name=utf8
+connection_cl_name=utf8_general_ci
+view_body_utf8=select `price_count`.`num_price` AS `num_price`,count(`price_count`.`metabolite_id`) AS `num_metab` from ((select `bioeco`.`bioanalysis_metabolite_price`.`metabolite_id` AS `metabolite_id`,count(distinct `bioeco`.`bioanalysis_metabolite_price`.`price`,`bioeco`.`bioanalysis_metabolite_price`.`amount`,`bioeco`.`bioanalysis_metabolite_price`.`date`,`bioeco`.`bioanalysis_metabolite_price`.`source`,`bioeco`.`bioanalysis_metabolite_price`.`unity`,`bioeco`.`bioanalysis_metabolite_price`.`provider_id`) AS `num_price` from `bioeco`.`bioanalysis_metabolite_price` group by `bioeco`.`bioanalysis_metabolite_price`.`metabolite_id` order by `num_price` desc)) `price_count` group by `price_count`.`num_price`
