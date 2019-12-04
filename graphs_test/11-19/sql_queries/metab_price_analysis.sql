@@ -47,3 +47,43 @@ where amount = 20 and date = '2017-09-22 17:55:02' and price = 0.82 and source =
 
 SELECT * from bioeco.bioanalysis_metabolite_price
 where provider is null;
+
+select unity, count(id) as num_price
+from bioanalysis_metabolite_price
+group by unity;
+
+select unity, count(DISTINCT bioanalysis_metabolite_price.price, 
+			  bioanalysis_metabolite_price.amount, 
+			  bioanalysis_metabolite_price.date, 
+			  bioanalysis_metabolite_price.source, 
+			  bioanalysis_metabolite_price.unity, 
+			  bioanalysis_metabolite_price.provider_id) as num_price
+from bioanalysis_metabolite_price
+group by unity;
+
+
+select unity,
+count(DISTINCT bioanalysis_metabolite_price.price, 
+			  bioanalysis_metabolite_price.amount, 
+			  bioanalysis_metabolite_price.date, 
+			  bioanalysis_metabolite_price.source, 
+			  bioanalysis_metabolite_price.unity, 
+			  bioanalysis_metabolite_price.provider_id)      as num_price,   # isto elimina aqueles preços repetidos do bioeconomics, porque nao inclui o bioeconomics log id
+count(distinct bioanalysis_metabolite_price.provider_id)     as num_provider,
+count(distinct bioanalysis_metabolite_price.source)          as num_source
+from bioanalysis_metabolite_price
+group by unity;
+
+
+# Amounts equal to 0, from where are they coming?
+select *
+from bioanalysis_metabolite_price
+where amount = 0;
+
+-- select * from bioanalysis_metabolite
+-- where id= 67;
+
+select *
+from bioanalysis_metabolite_price
+where provider_id = 9;  # provider é o TargetMol
+

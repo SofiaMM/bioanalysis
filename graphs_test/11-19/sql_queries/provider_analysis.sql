@@ -11,3 +11,8 @@ FROM bioeco.provider;
 select * 
 from provider
 where name is Null;
+
+# Amounts equal to 0
+select * 
+from provider
+where id = 9;
