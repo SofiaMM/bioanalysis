@@ -11,10 +11,10 @@ count(price) from (
 			   bioanalysis_metabolite_price.date, 
 			   bioanalysis_metabolite_price.price               as price, 
 			   bioanalysis_metabolite_price.amount              as amount, 
-			   bioanalysis_metabolite_price.unity               as unity, 
+			   bioanalysis_metabolite_price.unity               as unit, 
 			   if(provider.name is null, "None", provider.name) as provider_name, 
-			   price/amount                                     as price_per_unity,
-			   price/amount*convert_to_g(unity)                 as price_per_g
+			   price/amount                                     as price_per_unit,
+			   price/(amount*convert_to_g(unity))               as price_per_g
 		from bioanalysis_metabolite_price
 		JOIN provider 
 			on provider.id = bioanalysis_metabolite_price.provider_id

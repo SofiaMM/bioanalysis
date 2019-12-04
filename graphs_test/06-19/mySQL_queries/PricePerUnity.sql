@@ -7,4 +7,4 @@ select distinct(metabolite_id) from bioanalysis_metabolite_price
 where unity = 'mg/ml';
 
 select * from bioanalysis_metabolite_price
-where metabolite_id = 2314;
+where metabolite_id = 2;
