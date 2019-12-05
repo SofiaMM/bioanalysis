@@ -85,5 +85,13 @@ where amount = 0;
 
 select *
 from bioanalysis_metabolite_price
-where provider_id = 9;  # provider é o TargetMol
+where provider_id = 9 and source = 'CHEMSPACE';  # provider é o TargetMol
 
+select provider_id, source, avg(amount) as avg_amount, count(id) as num_price, count(distinct metabolite_id) as num_metab
+from bioanalysis_metabolite_price
+-- where source = 'CHEMSPACE' 
+group by provider_id, source; 
+
+select *
+from bioanalysis_metabolite_price
+where provider_id = 112 and source = 'CHEMSPACE'; 
