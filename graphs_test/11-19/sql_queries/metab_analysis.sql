@@ -100,3 +100,7 @@ group by inchi;   # Some inchi's are repeated more than once, even though the in
 select *
 from bioeco.bioanalysis_metabolite
 where inchi = 'InChI=1S/C3H6N2O2/c4-2-1-7-5-3(2)6/h2H,1,4H2,(H,5,6)/t2-/m1/s1';
+
+select *
+from bioeco.bioanalysis_metabolite
+where common_name = '4-aminopyridine';
