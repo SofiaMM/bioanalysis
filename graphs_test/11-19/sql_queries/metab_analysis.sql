@@ -9,7 +9,7 @@ FROM bioeco.bioanalysis_metabolite;
 
 SELECT 
 	count(distinct id) as num_id, 
-    count(common_name) as num_commonName, 
+    count(distinct common_name) as num_commonName, 
     count(distinct id_bioeco) as num_idBioeco,
     count(distinct inchi) as num_inchi,
     count(distinct inchi_key) as num_inchiKey,
@@ -29,6 +29,15 @@ select common_name, inchi, count(id) as num_metab
 from bioeco.bioanalysis_metabolite
 group by inchi;
 
+
+select *
+from bioeco.bioanalysis_metabolite
+where inchi_key = 'DQOCFCZRZOAIBN-WZHZPDAFSA-L';
+
+select common_name, count(id) as count_id
+from bioeco.bioanalysis_metabolite
+group by common_name
+order by count_id;
 
 # The inchi keys aren't specific for each metabolite, however when counting the distinct number of inchi keys it matches
 # the number of distinct prices. Therefore, this query verifies how many metabolites are associated to each inchikey and 
@@ -70,6 +79,9 @@ SELECT
 FROM bioeco.bioanalysis_metabolite
 group by common_name, inchi, inchi_key, smiles;
 
+SELECT count(id)
+FROM bioeco.bioanalysis_metabolite;
+-- group by common_name, inchi, inchi_key, smiles;
 
 # There should be a inchi for all the metabolites, however there are 4292 distinct metabolites, and just 4278 distinct inchi
 # Why is that??
