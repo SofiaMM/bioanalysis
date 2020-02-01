@@ -1,0 +1,1292 @@
+11:17:11.316 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.techprimers.db.SpringBootMysqldbApplicationTests], using SpringBootContextLoader
+11:17:11.440 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.techprimers.db.SpringBootMysqldbApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:17:11.442 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.techprimers.db.SpringBootMysqldbApplicationTests]: SpringBootMysqldbApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:17:30.784 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.techprimers.db.SpringBootMysqldbApplication for test class com.techprimers.db.SpringBootMysqldbApplicationTests
+11:17:31.605 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+11:17:31.735 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6f46426d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@73700b80, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@49c7b90e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@10d307f1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4d5b6aac, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3e84448c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4a7f959b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@429bffaa, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5403f35f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@483f6d77, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7e5afaa6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@63a12c68]
+11:17:35.261 [main] INFO  c.t.d.SpringBootMysqldbApplicationTests - Starting SpringBootMysqldbApplicationTests on DESKTOP-HGHKDQH with PID 3068 (started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+11:17:35.263 [main] INFO  c.t.d.SpringBootMysqldbApplicationTests - No active profile set, falling back to default profiles: default
+11:17:35.625 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@766653e6: startup date [Sat Apr 20 11:17:35 BST 2019]; root of context hierarchy
+11:17:39.175 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:17:41.148 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:17:41.169 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+11:17:41.184 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+11:17:41.185 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+11:17:41.186 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+11:17:41.188 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+11:17:42.826 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$88102825] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:17:45.086 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:17:45.922 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:17:46.212 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+11:17:46.730 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+11:17:46.735 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+11:17:47.318 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11:17:47.861 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:17:49.609 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:17:49.618 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:17:49.913 [main] INFO  c.t.d.SpringBootMysqldbApplicationTests - Starting SpringBootMysqldbApplicationTests on DESKTOP-HGHKDQH with PID 3068 (started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+11:17:49.914 [main] INFO  c.t.d.SpringBootMysqldbApplicationTests - No active profile set, falling back to default profiles: default
+11:17:49.926 [main] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@52c9d3d0: startup date [Sat Apr 20 11:17:49 BST 2019]; root of context hierarchy
+11:17:50.650 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:17:50.876 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:17:50.892 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+11:17:50.893 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+11:17:50.893 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+11:17:50.894 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+11:17:50.894 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+11:17:51.243 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$88102825] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:17:51.709 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+11:17:51.730 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+11:17:51.799 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+11:17:51.833 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:17:51.900 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+11:17:51.935 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+11:18:21.645 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 6460 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+11:18:21.650 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+11:18:21.790 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@131ef10: startup date [Sat Apr 20 11:18:21 BST 2019]; root of context hierarchy
+11:18:23.357 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:18:24.436 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:18:24.461 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+11:18:24.465 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+11:18:24.466 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+11:18:24.468 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+11:18:24.470 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+11:18:25.927 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$54157de9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:18:28.640 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:18:28.715 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:18:29.228 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:18:29.228 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+11:18:29.279 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+11:18:29.744 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:18:29.745 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7955 ms
+11:18:33.110 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:18:33.111 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+11:18:34.220 [cluster-ClusterId{value='5cbaf1f9b28fa1193cd6fe12', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+11:18:35.612 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:18:35.612 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+11:18:35.612 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:18:35.613 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:18:35.613 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:18:35.613 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+11:18:35.613 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+11:18:36.141 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:18:36.559 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:18:36.654 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+11:18:36.962 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+11:18:36.966 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+11:18:37.041 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11:18:37.362 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:18:37.856 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:18:37.871 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:18:37.888 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:21:09.884 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 6260 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+11:21:09.889 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+11:21:10.008 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e5d171f: startup date [Sat Apr 20 11:21:10 BST 2019]; root of context hierarchy
+11:21:11.612 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:21:12.886 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:21:12.906 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+11:21:12.910 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+11:21:12.911 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+11:21:12.914 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+11:21:12.916 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+11:21:14.320 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ea64eddc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:21:16.210 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:21:16.276 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:21:16.722 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:21:16.723 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+11:21:16.748 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+11:21:17.090 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:21:17.090 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7083 ms
+11:21:21.025 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:21:21.025 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+11:21:22.100 [cluster-ClusterId{value='5cbaf2a1b28fa11874549d23', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+11:21:23.050 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:21:23.050 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+11:21:23.050 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:21:23.050 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:21:23.050 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:21:23.051 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+11:21:23.051 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+11:21:23.277 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:21:23.663 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:21:23.819 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+11:21:24.139 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+11:21:24.144 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+11:21:24.239 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11:21:24.602 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:21:25.167 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:21:25.183 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:21:25.196 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:24:55.286 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 7336 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+11:24:55.291 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+11:24:55.416 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2002fc1d: startup date [Sat Apr 20 11:24:55 BST 2019]; root of context hierarchy
+11:24:57.548 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:24:58.829 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:24:58.885 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+11:24:58.898 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+11:24:58.900 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+11:24:58.901 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+11:24:58.903 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+11:25:00.427 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2581bff4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:25:02.083 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:25:02.152 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:25:02.829 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:25:02.829 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+11:25:02.850 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+11:25:03.631 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:25:03.632 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8216 ms
+11:25:07.657 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:25:07.657 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+11:25:08.882 [cluster-ClusterId{value='5cbaf383b28fa11ca88179e4', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+11:25:09.778 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:25:09.779 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+11:25:09.779 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:25:09.779 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:25:09.779 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:25:09.779 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+11:25:09.779 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+11:25:09.984 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:25:10.560 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:25:10.762 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+11:25:11.102 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+11:25:11.106 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+11:25:11.181 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11:25:11.503 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:25:12.039 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:25:12.053 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:25:12.065 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:26:29.544 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 6548 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+11:26:29.583 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+11:26:29.726 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c178a76: startup date [Sat Apr 20 11:26:29 BST 2019]; root of context hierarchy
+11:26:31.380 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:26:32.576 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:26:32.594 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+11:26:32.600 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+11:26:32.602 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+11:26:32.604 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+11:26:32.608 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+11:26:33.875 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$aa597e84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:26:35.712 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:26:35.765 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:26:36.172 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:26:36.173 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+11:26:36.198 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+11:26:36.621 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:26:36.621 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6895 ms
+11:26:38.948 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:26:38.948 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+11:26:40.050 [cluster-ClusterId{value='5cbaf3deb28fa11994327d19', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+11:26:40.765 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:26:40.766 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+11:26:40.766 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:26:40.767 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:26:40.767 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:26:40.767 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+11:26:40.767 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+11:26:41.076 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:26:41.596 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:26:41.713 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+11:26:42.018 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+11:26:42.022 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+11:26:42.125 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11:26:42.442 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:26:42.959 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:26:42.974 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:26:42.986 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:27:41.594 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 14092 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+11:27:41.606 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+11:27:41.761 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6200f9cb: startup date [Sat Apr 20 11:27:41 BST 2019]; root of context hierarchy
+11:27:43.268 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:27:44.294 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:27:44.317 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+11:27:44.320 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+11:27:44.322 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+11:27:44.324 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+11:27:44.326 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+11:27:45.622 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fce16275] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:27:47.464 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:27:47.569 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:27:48.306 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:27:48.307 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+11:27:48.335 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+11:27:48.866 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:27:48.866 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7105 ms
+11:27:51.160 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:27:51.160 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+11:27:52.263 [cluster-ClusterId{value='5cbaf427b28fa1370c176829', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+11:27:53.023 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:27:53.023 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+11:27:53.024 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:27:53.024 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:27:53.024 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:27:53.024 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+11:27:53.024 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+11:27:53.235 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:27:54.836 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+11:27:55.088 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+11:27:55.091 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+11:27:55.180 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11:27:55.478 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:27:56.515 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:27:56.558 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000422: Disabling contextual LOB creation as connection was null
+11:27:56.985 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:28:47.164 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 1312 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+11:28:47.171 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+11:28:47.345 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4009e306: startup date [Sat Apr 20 11:28:47 BST 2019]; root of context hierarchy
+11:28:50.089 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:28:51.420 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:28:51.460 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+11:28:51.464 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+11:28:51.465 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+11:28:51.466 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+11:28:51.468 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+11:28:53.248 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$85740000] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:28:56.054 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:28:56.126 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:28:56.975 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:28:56.976 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+11:28:57.007 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+11:28:57.490 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:28:57.490 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 10145 ms
+11:29:02.030 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:29:02.030 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+11:29:03.290 [cluster-ClusterId{value='5cbaf46eb28fa10520241dae', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+11:29:04.850 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:29:04.857 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+11:29:04.859 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:29:04.859 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:29:04.860 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:29:04.860 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+11:29:04.860 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+11:29:05.225 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:29:06.486 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+11:29:06.794 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+11:29:06.799 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+11:29:06.890 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11:29:07.217 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:29:08.242 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:29:08.268 [main] INFO  o.h.e.j.e.i.LobCreatorBuilderImpl - HHH000422: Disabling contextual LOB creation as connection was null
+11:29:08.722 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:30:40.394 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 13924 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+11:30:40.401 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+11:30:40.578 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2002fc1d: startup date [Sat Apr 20 11:30:40 BST 2019]; root of context hierarchy
+11:30:42.162 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:30:43.199 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:30:43.221 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+11:30:43.227 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+11:30:43.229 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+11:30:43.231 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+11:30:43.232 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+11:30:44.755 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$99ab4eac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:30:46.647 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:30:46.698 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:30:47.118 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:30:47.118 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+11:30:47.137 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+11:30:47.569 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:30:47.570 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6992 ms
+11:30:50.300 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:30:50.300 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+11:30:51.371 [cluster-ClusterId{value='5cbaf4dab28fa13664060a32', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+11:30:52.278 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:30:52.278 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+11:30:52.279 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:30:52.279 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:30:52.279 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:30:52.279 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+11:30:52.279 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+11:30:52.516 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:30:52.853 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:30:52.952 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+11:30:53.253 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+11:30:53.257 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+11:30:53.371 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11:30:53.736 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:30:54.234 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:30:54.271 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:30:54.286 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:31:18.232 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 7380 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+11:31:18.237 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+11:31:18.347 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@70325e14: startup date [Sat Apr 20 11:31:18 BST 2019]; root of context hierarchy
+11:31:19.942 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:31:21.147 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:31:21.187 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+11:31:21.191 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+11:31:21.193 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+11:31:21.194 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+11:31:21.198 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+11:31:22.737 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5e1ea467] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:31:25.391 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:31:25.484 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:31:26.288 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:31:26.288 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+11:31:26.309 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+11:31:26.772 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:31:26.772 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8425 ms
+11:31:29.132 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:31:29.133 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+11:31:30.208 [cluster-ClusterId{value='5cbaf501b28fa11cd4b2972c', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+11:31:31.750 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:31:31.750 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+11:31:31.751 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:31:31.758 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:31:31.758 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:31:31.758 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+11:31:31.758 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+11:31:32.009 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:31:32.625 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:31:32.992 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+11:31:33.307 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+11:31:33.311 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+11:31:33.409 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11:31:33.959 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:31:34.625 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:31:34.642 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:31:34.657 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:32:07.572 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 4464 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+11:32:07.578 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+11:32:07.746 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2002fc1d: startup date [Sat Apr 20 11:32:07 BST 2019]; root of context hierarchy
+11:32:09.456 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:32:10.549 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:32:10.571 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+11:32:10.577 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+11:32:10.579 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+11:32:10.580 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+11:32:10.582 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+11:32:11.891 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fce16275] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:32:14.016 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:32:14.080 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:32:14.566 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:32:14.566 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+11:32:14.581 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+11:32:14.910 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:32:14.910 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7164 ms
+11:32:17.118 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:32:17.118 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+11:32:18.189 [cluster-ClusterId{value='5cbaf531b28fa1117008bd31', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+11:32:19.011 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:32:19.011 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+11:32:19.011 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:32:19.011 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:32:19.011 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:32:19.011 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+11:32:19.011 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+11:32:19.208 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:32:19.585 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:32:19.676 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+11:32:20.061 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+11:32:20.065 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+11:32:20.278 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11:32:20.681 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:32:21.192 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:32:21.206 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:32:21.216 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:34:00.213 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 204 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+11:34:00.227 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+11:34:00.423 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@20d525: startup date [Sat Apr 20 11:34:00 BST 2019]; root of context hierarchy
+11:34:01.985 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:34:03.082 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:34:03.105 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+11:34:03.108 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+11:34:03.110 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+11:34:03.111 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+11:34:03.112 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+11:34:04.435 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2ef2d56f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:34:06.347 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:34:06.431 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:34:07.156 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:34:07.156 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+11:34:07.176 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+11:34:07.608 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:34:07.608 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7186 ms
+11:34:10.273 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:34:10.273 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+11:34:11.406 [cluster-ClusterId{value='5cbaf5a2b28fa100cc037b5f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+11:34:12.995 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:34:12.996 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+11:34:12.996 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:34:12.996 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:34:12.996 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:34:12.997 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+11:34:12.997 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+11:34:13.289 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:34:13.739 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:34:14.049 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+11:34:14.281 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+11:34:14.285 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+11:34:14.371 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11:34:14.707 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:34:15.241 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:34:15.258 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:34:15.273 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+11:38:39.043 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 11324 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+11:38:39.057 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+11:38:39.217 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2807bdeb: startup date [Sat Apr 20 11:38:39 BST 2019]; root of context hierarchy
+11:38:41.273 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:38:42.879 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:38:42.910 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+11:38:42.916 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+11:38:42.919 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+11:38:42.920 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+11:38:42.921 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+11:38:44.768 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bf7b19c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:38:48.993 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:38:49.142 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:38:50.118 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:38:50.119 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+11:38:50.169 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+11:38:51.293 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:38:51.293 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 12076 ms
+11:38:56.500 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:38:56.501 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+11:38:58.023 [cluster-ClusterId{value='5cbaf6c0b28fa12c3c3e7b81', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+11:40:12.114 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 11216 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+11:40:12.125 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+11:40:12.310 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e5d171f: startup date [Sat Apr 20 11:40:12 BST 2019]; root of context hierarchy
+11:40:14.429 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:40:15.978 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:40:16.010 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+11:40:16.016 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+11:40:16.018 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+11:40:16.019 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+11:40:16.024 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+11:40:17.900 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$28960ee5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:40:20.315 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+11:40:20.406 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+11:40:21.304 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+11:40:21.304 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+11:40:21.325 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+11:40:22.028 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+11:40:22.028 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 9718 ms
+11:40:27.680 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+11:40:27.680 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+11:40:28.966 [cluster-ClusterId{value='5cbaf71bb28fa12bd096f3b9', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+11:40:30.981 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+11:40:30.981 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+11:40:30.982 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+11:40:30.982 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+11:40:30.982 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+11:40:30.982 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+11:40:30.982 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+11:40:31.281 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+11:40:31.913 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+11:40:32.131 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+11:40:32.513 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+11:40:32.517 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+11:40:32.666 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+11:40:33.187 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+11:40:33.753 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:40:33.776 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+11:40:33.795 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+13:50:49.114 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 13584 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+13:50:49.146 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+13:50:49.330 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7817fd62: startup date [Sat Apr 20 13:50:49 BST 2019]; root of context hierarchy
+13:50:51.025 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:50:52.273 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:50:52.309 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+13:50:52.317 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+13:50:52.317 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+13:50:52.317 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+13:50:52.321 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+13:50:53.585 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b273baa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:50:55.117 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:50:55.157 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:50:55.633 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:50:55.633 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+13:50:55.653 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+13:50:55.969 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:50:55.969 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6639 ms
+13:50:58.120 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+13:50:58.120 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+13:50:59.213 [cluster-ClusterId{value='5cbb15b2b28fa13510dceccc', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+13:51:00.213 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:51:00.213 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+13:51:00.213 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:51:00.213 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+13:51:00.213 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+13:51:00.213 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+13:51:00.213 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+13:51:01.168 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:51:01.861 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:51:02.145 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+13:51:02.577 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+13:51:02.577 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+13:51:02.888 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+13:51:03.501 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+13:51:04.153 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:51:04.169 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:51:04.177 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+13:59:22.730 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 6164 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+13:59:22.762 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+13:59:22.894 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e5d171f: startup date [Sat Apr 20 13:59:22 BST 2019]; root of context hierarchy
+13:59:24.494 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:59:25.510 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:59:25.526 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+13:59:25.530 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+13:59:25.530 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+13:59:25.534 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+13:59:25.534 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+13:59:26.973 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$282b6f8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:59:29.161 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+13:59:29.221 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:59:29.721 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:59:29.721 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+13:59:29.737 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+13:59:31.093 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+13:59:31.093 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8199 ms
+13:59:33.517 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+13:59:33.517 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+13:59:34.588 [cluster-ClusterId{value='5cbb17b5b28fa118143de109', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+13:59:35.560 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+13:59:35.560 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+13:59:35.560 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+13:59:35.560 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+13:59:35.560 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+13:59:35.560 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+13:59:35.560 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+13:59:35.852 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:59:36.215 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:59:36.291 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+13:59:36.582 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+13:59:36.586 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+13:59:36.682 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+13:59:37.086 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+13:59:37.570 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:59:37.582 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:59:37.602 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:08:35.983 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 11436 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+14:08:35.995 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+14:08:36.121 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2002fc1d: startup date [Sat Apr 20 14:08:36 BST 2019]; root of context hierarchy
+14:08:37.780 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:08:38.950 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:08:38.972 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+14:08:38.976 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+14:08:38.980 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+14:08:38.980 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+14:08:38.980 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+14:08:40.462 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2581bff4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:08:42.291 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:08:42.353 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:08:42.811 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:08:42.811 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+14:08:42.827 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+14:08:43.155 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:08:43.155 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7034 ms
+14:08:45.200 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:08:45.200 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+14:08:46.282 [cluster-ClusterId{value='5cbb19ddb28fa12cace69e3c', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+14:08:47.270 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:08:47.270 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+14:08:47.270 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:08:47.270 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14:08:47.270 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:08:47.270 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+14:08:47.270 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:08:47.710 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:08:48.046 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:08:48.124 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+14:08:48.473 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+14:08:48.473 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:08:48.614 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+14:08:48.957 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:08:49.379 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:08:49.395 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:08:49.411 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:10:22.606 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 6172 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+14:10:22.621 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+14:10:22.762 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@41a2befb: startup date [Sat Apr 20 14:10:22 BST 2019]; root of context hierarchy
+14:10:24.384 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:10:25.415 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:10:25.431 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+14:10:25.447 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+14:10:25.447 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+14:10:25.447 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+14:10:25.447 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+14:10:26.837 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ea64eddc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:10:28.710 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:10:28.757 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:10:29.183 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:10:29.183 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+14:10:29.199 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+14:10:29.623 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:10:29.623 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6861 ms
+14:10:32.084 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:10:32.084 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+14:10:33.177 [cluster-ClusterId{value='5cbb1a48b28fa1181c9bb163', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+14:10:33.906 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:10:33.906 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+14:10:33.906 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:10:33.906 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14:10:33.906 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:10:33.906 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+14:10:33.906 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:10:34.094 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:10:34.466 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:10:34.591 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+14:10:34.903 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+14:10:34.919 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:10:34.997 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+14:10:35.283 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:10:35.752 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:10:35.767 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:10:35.767 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:17:39.040 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 11432 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+14:17:39.080 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+14:17:39.304 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7817fd62: startup date [Sat Apr 20 14:17:39 BST 2019]; root of context hierarchy
+14:17:40.940 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:17:42.511 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:17:42.535 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+14:17:42.539 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+14:17:42.543 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+14:17:42.543 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+14:17:42.543 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+14:17:43.879 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4a0ba822] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:17:45.887 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:17:45.963 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:17:46.623 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:17:46.623 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+14:17:46.647 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+14:17:46.967 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:17:46.967 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7663 ms
+14:17:49.212 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:17:49.216 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+14:17:50.349 [cluster-ClusterId{value='5cbb1bfdb28fa12ca8110b8a', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+14:17:51.135 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:17:51.135 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+14:17:51.135 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:17:51.135 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14:17:51.135 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:17:51.135 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+14:17:51.135 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:17:51.353 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:17:51.992 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:17:52.086 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+14:17:52.419 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+14:17:52.427 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:17:52.551 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+14:17:52.816 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:17:53.276 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:17:53.296 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:17:53.308 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:20:21.399 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 10448 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+14:20:21.407 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+14:20:21.658 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3d34d211: startup date [Sat Apr 20 14:20:21 BST 2019]; root of context hierarchy
+14:20:23.753 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:20:25.420 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:20:25.441 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+14:20:25.449 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+14:20:25.552 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+14:20:25.552 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+14:20:25.552 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+14:20:27.646 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$96e18f08] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:20:29.758 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:20:29.806 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:20:30.355 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:20:30.355 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+14:20:30.377 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+14:20:30.736 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:20:30.736 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 9078 ms
+14:20:33.221 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:20:33.221 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+14:20:34.474 [cluster-ClusterId{value='5cbb1ca1b28fa128d0e36c3b', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+14:20:35.563 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:20:35.563 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+14:20:35.563 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:20:35.563 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14:20:35.563 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:20:35.563 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+14:20:35.563 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:20:35.826 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:20:36.404 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:20:36.614 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+14:20:36.918 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+14:20:36.922 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:20:37.063 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+14:20:37.369 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:20:37.852 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:20:37.872 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:20:37.885 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:47:35.823 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 7036 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+14:47:35.863 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+14:47:35.987 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4c178a76: startup date [Sat Apr 20 14:47:35 BST 2019]; root of context hierarchy
+14:47:37.495 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:47:38.439 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:47:38.463 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+14:47:38.463 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+14:47:38.467 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+14:47:38.467 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+14:47:38.467 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+14:47:39.734 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$95b0b441] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:47:41.210 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:47:41.258 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:47:41.662 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:47:41.662 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+14:47:41.678 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+14:47:41.990 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:47:41.990 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6003 ms
+14:47:44.122 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:47:44.122 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+14:47:45.201 [cluster-ClusterId{value='5cbb2300b28fa11b7c9bc043', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+14:47:45.933 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:47:45.933 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+14:47:45.933 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:47:45.933 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14:47:45.933 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:47:45.933 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+14:47:45.933 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:47:46.101 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:47:46.445 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:47:46.549 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+14:47:47.125 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+14:47:47.129 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:47:47.269 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+14:47:47.625 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+14:47:48.025 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:47:48.037 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:47:48.049 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:49:00.036 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 14024 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+14:49:00.040 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+14:49:00.156 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7770f470: startup date [Sat Apr 20 14:49:00 BST 2019]; root of context hierarchy
+14:49:01.687 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:49:02.711 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:49:02.731 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+14:49:02.799 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+14:49:02.803 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+14:49:02.807 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+14:49:02.807 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+14:49:04.379 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1f48e74a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:49:06.427 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:49:06.507 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:49:07.242 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:49:07.242 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+14:49:07.262 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+14:49:07.714 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:49:07.714 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7558 ms
+14:49:10.414 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:49:10.414 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+14:49:11.678 [cluster-ClusterId{value='5cbb2356b28fa136c8b4797a', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+14:49:12.878 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:49:12.882 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+14:49:12.882 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:49:12.882 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14:49:12.882 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:49:12.882 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+14:49:12.882 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:49:13.101 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:49:13.622 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:49:13.854 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+14:49:14.198 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+14:49:14.202 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:49:14.314 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+14:49:14.702 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:49:15.150 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:49:15.162 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:49:15.174 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:50:24.946 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 7520 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+14:50:24.950 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+14:50:25.114 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2362f559: startup date [Sat Apr 20 14:50:25 BST 2019]; root of context hierarchy
+14:50:26.590 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:50:27.586 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:50:27.606 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+14:50:27.610 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+14:50:27.614 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+14:50:27.614 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+14:50:27.614 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+14:50:28.882 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$54157de9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:50:30.389 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:50:30.453 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:50:30.877 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:50:30.877 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+14:50:30.893 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+14:50:31.201 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:50:31.201 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6087 ms
+14:50:33.257 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:50:33.261 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+14:50:34.337 [cluster-ClusterId{value='5cbb23a9b28fa11d60786d13', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+14:50:34.873 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:50:34.873 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+14:50:34.873 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:50:34.873 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14:50:34.873 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:50:34.873 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+14:50:34.873 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:50:35.065 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:50:35.428 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:50:35.516 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+14:50:35.832 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+14:50:35.836 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:50:35.936 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+14:50:36.232 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:50:36.832 [main] INFO  org.hibernate.search.engine.Version - HSEARCH000034: Hibernate Search 5.6.0.Final
+14:50:37.280 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:50:37.856 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+14:50:37.856 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:50:37.872 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:50:37.880 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:54:33.211 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 8628 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+14:54:33.231 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+14:54:33.347 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@8297b3a: startup date [Sat Apr 20 14:54:33 BST 2019]; root of context hierarchy
+14:54:34.998 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:54:36.234 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:54:36.258 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+14:54:36.262 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+14:54:36.262 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+14:54:36.266 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+14:54:36.266 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+14:54:37.654 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a1604678] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:54:39.758 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:54:39.826 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:54:40.318 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:54:40.322 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+14:54:40.334 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+14:54:40.778 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:54:40.778 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7431 ms
+14:54:42.885 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:54:42.885 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+14:54:44.109 [cluster-ClusterId{value='5cbb24a2b28fa121b46a6354', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+14:54:44.989 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:54:44.989 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+14:54:44.989 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:54:44.989 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14:54:44.989 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:54:44.989 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+14:54:44.989 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:54:45.225 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:54:45.879 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:54:45.975 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+14:54:46.287 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+14:54:46.295 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:54:46.399 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+14:54:46.815 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:54:47.266 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:54:47.282 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:54:47.290 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+14:56:48.317 [main] INFO  c.t.db.SpringBootMysqldbApplication - Starting SpringBootMysqldbApplication on DESKTOP-HGHKDQH with PID 13292 (C:\Users\sofia\git\spring-boot-mysql-example\target\classes started by sofia in C:\Users\sofia\git\spring-boot-mysql-example)
+14:56:48.321 [main] INFO  c.t.db.SpringBootMysqldbApplication - No active profile set, falling back to default profiles: default
+14:56:48.457 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3bd82cf5: startup date [Sat Apr 20 14:56:48 BST 2019]; root of context hierarchy
+14:56:50.068 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:56:51.156 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:56:51.176 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetabolitePriceRepository.
+14:56:51.184 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.BioanalysisMetaboliteRepository.
+14:56:51.188 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ExternalSourceIdRepository.
+14:56:51.188 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.MetaboliteNameRepository.
+14:56:51.188 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data MongoDB - Could not safely identify store assignment for repository candidate interface com.techprimers.db.repository.ProviderRepository.
+14:56:52.640 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7b273baa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:56:54.100 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+14:56:54.160 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:56:54.648 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:56:54.648 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.37
+14:56:54.664 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Users\sofia\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\sofia\AppData\Local\Programs\Python\Python36\;"C:\Users\sofia\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd";C:\Users\sofia\AppData\Roaming\npm;C:\WINDOWS\System32;;.]
+14:56:54.968 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:56:54.968 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6511 ms
+14:56:57.075 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:56:57.075 [localhost-startStop-1] INFO  org.mongodb.driver.cluster - Adding discovered server localhost:27017 to client view of cluster
+14:56:58.147 [cluster-ClusterId{value='5cbb2529b28fa133ecb0747f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:114)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:59)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:57)
+	... 3 common frames omitted
+14:56:59.019 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:56:59.023 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webMvcMetricsFilter' to: [/*]
+14:56:59.023 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:56:59.023 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14:56:59.023 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:56:59.023 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpTraceFilter' to: [/*]
+14:56:59.023 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:56:59.211 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:56:59.654 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:56:59.762 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+14:57:00.150 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.17.Final}
+14:57:00.154 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+14:57:00.262 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+14:57:00.710 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:57:01.426 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:57:01.442 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:57:01.454 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
